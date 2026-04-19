@@ -352,7 +352,7 @@ const MasterPlan = () => (
           <FadeIn direction="left">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-gray-200 bg-gray-50">
               <img 
-                src="\longislandmap.jpeg" 
+                src=".\longislandmap.jpeg" 
                 alt="Map of Long Island Singapore" 
                 className="w-full h-auto object-contain hover:scale-105 transition-transform duration-1000"
               />
@@ -463,7 +463,7 @@ const Infrastructure = () => {
     { 
       title: "Coastal Barrier", 
       sub: "3 tracts of elevated land", 
-      img: "/barrier.png",
+      img: "./barrier.png",
       desc: "Designed as the ultimate defense against projected sea-level rises, the three tracts of reclaimed land will be built at a significantly higher elevation. This continuous coastal barrier will protect vulnerable low-lying areas in the East Coast from extreme storm surges and long-term climate impacts.",
       imgClass: "object-[75%_center]" // Shifts image right
     },
