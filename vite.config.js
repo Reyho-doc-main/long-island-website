@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base:"https://github.com/Reyho-doc-main/long-island-website",
+  base:"/long-island-website/",
 })
