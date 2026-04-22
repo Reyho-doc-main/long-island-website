@@ -465,7 +465,7 @@ const Infrastructure = () => {
       sub: "3 tracts of elevated land", 
       img: "./barrier.png",
       desc: "Designed as the ultimate defense against projected sea-level rises, the three tracts of reclaimed land will be built at a significantly higher elevation. This continuous coastal barrier will protect vulnerable low-lying areas in the East Coast from extreme storm surges and long-term climate impacts.",
-      imgClass: "object-[75%_center]" // Shifts image right
+      imgClass: "object-[75%_center]"
     },
   ];
 
@@ -1288,7 +1288,6 @@ useEffect(() => {
                 )}
               </button>
 
-              {/* Survey Button added here */}
               <a 
                 href="https://docs.google.com/forms/d/e/1FAIpQLSduQI5sU-3AejLUpWkqfhnEgDpeCk55ii2UuLG248H5JsHc1g/viewform?usp=publish-editor" 
                 target="_blank"
